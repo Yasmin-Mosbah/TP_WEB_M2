@@ -22,10 +22,10 @@ class MyLogo extends HTMLElement {
 
     <br>
     <label for="size">Taille de la police :</label>
-    <input type="number" id="policesize" name="size">
+    <input type="number" id="policesize" name="size"  min="0" max="50" >
     <br><br>
     <label for="size">Padding de la police :</label>
-    <input type="number" id="padding" name="size">
+    <input type="number" id="padding" name="size"  min="0" max="50" >
     <br>
     <p>Changer la police d'écriture :</p>
     <select class id="fontForm">
@@ -38,7 +38,7 @@ class MyLogo extends HTMLElement {
     <br>
     <br>
     <label>Taille du contour de la police :</label>
-    <input type="number" id="strokeWidth" name="size">
+    <input type="number" id="strokeWidth" name="size"  min="0" max="50">
     <br>
     <label> Couleur du contour: </label>
     <input type="color" id="strokeColor">
